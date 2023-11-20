@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #c95, #f7ead3, #c95);
+    color: black;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lobster', sans-serif;
+}
+
+p {
+    font-family: 'Itim', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero {
+    margin: 50px;
+    max-width: 100%;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #02027b;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin: 20px 0 20px 0;
+}
+
+header p {
+    max-width: 60%;
+    margin: 20px 0 20px 0;
+}
+
+hr {
+    width: 80px;
+    border: none;
+    border-top: 10px dotted #bababa;
+    margin: auto;
+}
+
+/*----Main Section----*/
+.Portfolio-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+main h1 {
+    margin: 30px;
+    font-size: 2.5rem;
+}
+
+main div img {
+    max-width: 400px;
+    min-height: 400px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.Portfolio-box1 {
+    background-color: #f5bd8c;
+    border-radius: 5px;
+}
+
+.Portfolio-box1 h2 {
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.Portfolio-box1 p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.Portfolio-box1 button {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 0.8rem;
+    width: 150px;
+    padding: 15px 0;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Portfolio-box1 button:hover {
+    font-weight: bolder;
+    border: 1px solid #02027b;
+}
+
+/*-----Skills Summary----*/
+.skills-continer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.skills h1{
+    color: #02027b;
+}
+.skills-continer h4 {
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+/*------Section Education---------*/
+.Education{
+    margin: 80px 0px;
+}
+.Education h1{
+    color: #02027b;
+}
+.Edu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 70px 0px;
+    flex-wrap: wrap;
+}
+.Edu-container img{
+    border-radius: 50%;
+}
+.Edu{
+    background-color: #f5bd8c;
+    border-radius: 49% 49% 5px 5px;
+}
+.Education button {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 0.8rem;
+    width: 150px;
+    padding: 15px 0;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Education button:hover {
+    font-weight: bolder;
+    border: 1px solid #02027b;
+}
+.Edu h2{
+    margin: 10px 0px;
+}
+
+/*----Section Footer---*/
+footer{
+    margin: 50px;
+}
+
+footer h1{
+    color: #02027b;
+    margin: 30px 0;
+    font-size: 3rem;
+}
+
+.contect-me{
+    width: 60px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer-banner{
+    width: 95%;
+    margin: 30px 0;
+}
+
+.copyright-text{
+    margin: 80px 0 5px;
+}
